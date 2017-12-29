@@ -14,6 +14,9 @@ APlatfromTrigger::APlatfromTrigger()
 	if (!ensure((TriggerVolume = CreateDefaultSubobject<UBoxComponent>(FName("TriggerVolume"))) != nullptr)) return;
 
 	RootComponent = TriggerVolume;
+
+	TriggerVolume->OnComponentBeginOverlap.AddDynamic(this, &APlatfromTrigger::OnOverlapBegin);
+	TriggerVolume->OnComponentEndOverlap.AddDynamic(this, &APlatfromTrigger::OnOverlapEnd);
 }
 
 // Called when the game starts or when spawned
@@ -30,3 +33,12 @@ void APlatfromTrigger::Tick(float DeltaTime)
 
 }
 
+void APlatfromTrigger::OnOverlapBegin(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Activated"));
+}
+
+void APlatfromTrigger::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+	UE_LOG(LogTemp, Warning, TEXT("Deactivated"));
+}
