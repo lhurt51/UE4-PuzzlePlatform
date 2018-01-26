@@ -8,24 +8,24 @@ A simple C++ multiplayer game focused on solving puzzles using floating platform
 
 **Project Features**
 
-  - Start-up Lobby.
-  - 1x puzzle map.
-  - Exec commands to Host/Join the server.
-  - Integrated over the LAN/Hamachi.
-  - Replicated moving platforms.
-  - Replicated triggers to allow you to have fun with a buddy.
+  	- Start-up Lobby.
+  	- 1x puzzle map.
+  	- Exec commands to Host/Join the server.
+  	- Integrated over the LAN/Hamachi.
+  	- Replicated moving platforms.
+  	- Replicated triggers to allow you to have fun with a buddy.
 	
 **Subjects Covered**
 
 	- Connecting two players over LAN.
-  - How to be an active and involved programmer.
-  - Unreals Client-Server model.
-  - Determining Authority(Where the code is running Server/Client).
-  - Unreals Replication system.
-  - Connecting with Hamachi.
-  - Handling overlap events in C++.
-  - Console commands and how to make them.
-  - Server and Client travel.
+ 	- How to be an active and involved programmer.
+  	- Unreals Client-Server model.
+ 	- Determining Authority(Where the code is running Server/Client).
+ 	- Unreals Replication system.
+ 	- Connecting with Hamachi.
+	- Handling overlap events in C++.
+	- Console commands and how to make them.
+	- Server and Client travel.
 
 **Looking for a step by step guide?** Check out 
 Sam Pattuzzi's **[Unreal Multiplayer Mastery - Online Game Development In C++](https://www.udemy.com/unrealmultiplayer/)!** The course is designed to teach you everything you need to know about networks from the basics of latency in networks to the advanced topics of state synchronisation.
@@ -39,7 +39,7 @@ Get the Udemy Course now and learn the muliplayer mastery with Unreal Engine 4: 
 **Skills Acquired**
 
 	- Build multiplayer games.
-  - Share games with a large audience.
+  	- Share games with a large audience.
  	- Build UI with UMG and C++.
 **( Haven't Learned Yet )**
 
