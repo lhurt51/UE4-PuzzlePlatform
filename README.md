@@ -2,7 +2,8 @@
 
 Contains project files for Unreal Engine 4 C++ Multiplayer Puzzle Platforms
 
-A simple C++ multiplayer game focused on solving puzzles using floating platforms. This game is just to get me used to the way that Unreal handles replication and multiplayer over LAN.
+	A simple C++ multiplayer game focused on solving puzzles using floating platforms. This game is just to
+	get me used to the way that Unreal handles replication and multiplayer over LAN.
 
 ![alt text](project img)
 
